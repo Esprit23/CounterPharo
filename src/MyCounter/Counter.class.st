@@ -33,6 +33,12 @@ Counter >> increment [
 	count := count + 1
 ]
 
+{ #category : 'accessing' }
+Counter >> increment2 [
+
+	count := count + 2
+]
+
 { #category : 'initialization' }
 Counter >> initialize [
 	super initialize.
